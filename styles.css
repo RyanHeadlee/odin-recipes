@@ -39,7 +39,8 @@
 }
 
 .title-main {
-    font-size: 55px;
+    font-size: 50px;
+    color: teal;
     border-bottom: 1mm solid black;
     max-width: fit-content;
 }
@@ -55,12 +56,12 @@
     font-size: 20px;
 }
 
-.brownies-text {
+.img-txt {
     float: left;
 }
 
 .info {
-    width: 25%;
+    width: 50%;
     text-indent: 15mm;
     
     box-sizing: border-box;
@@ -68,8 +69,13 @@
 
 }
 
+.img-txt-pancakes {
+    float: left;
+}
+
 .title {
     border-image: linear-gradient(#f6b73c, #4d9f0c) 30;
     border-style: inset;
     text-indent: 15mm;
+    color: teal;
 }
