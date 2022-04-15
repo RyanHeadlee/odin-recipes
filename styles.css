@@ -1,3 +1,4 @@
+/* Images */
 .brownies {
     height: auto;
     width: 225px;
@@ -20,10 +21,22 @@
 
 .pancakes {
     height: auto;
-    width: 300px;
+    width: 290px;
 }
 
 .pancakes.home {
     height: auto;
     width: 225px;
+}
+/* End of Images */
+.ingredients {
+    border: 4mm ridge rgba(211, 220, 50, 0.6);
+}
+
+.ingredients.main {
+    text-align: center;
+}
+
+.ingredients.list {
+    line-height: 12mm;
 }
