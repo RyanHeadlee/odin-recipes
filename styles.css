@@ -1,4 +1,5 @@
 /* Images */
+
 .brownies,
 .deviledeggs {
     height: auto;
@@ -28,7 +29,9 @@
     height: auto;
     width: 225px;
 }
+
 /* Text */
+
 #body {
     margin-top: 10mm;
     margin-bottom: auto;
@@ -78,4 +81,15 @@
     border-style: inset;
     text-indent: 15mm;
     color: teal;
+}
+
+/* Lists */
+
+.ulist {
+    list-style: square;
+    list-style-position: inside;
+}
+
+.olist {
+    list-style-position: inside;
 }
