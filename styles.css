@@ -1,5 +1,6 @@
 /* Images */
-.brownies {
+.brownies,
+.deviledeggs {
     height: auto;
     width: 225px;
 }
@@ -7,11 +8,6 @@
 .brownies.home {
     height: auto;
     width: 150px;
-}
-
-.deviledeggs {
-    height: auto;
-    width: 225px;
 }
 
 .deviledeggs.home {
@@ -28,15 +24,41 @@
     height: auto;
     width: 225px;
 }
-/* End of Images */
-.ingredients {
-    border: 4mm ridge rgba(211, 220, 50, 0.6);
+/* Text */
+.body {
+    margin-left: 8mm;
+    margin-top: 8mm;
+    margin-right: 8mm;
+    margin-bottom: 8mm;
+    font-family: system-ui "Times New Roman" sans-serif;
 }
 
-.ingredients.main {
-    text-align: center;
-}
-
-.ingredients.list {
+.container {
+    max-width: 80%;
     line-height: 12mm;
 }
+
+.container.description {
+    border: 3mm inset rgba(223, 136, 36, 0.6);
+    background-color: blanchedalmond;
+}
+
+.container.ingredients {
+    border: 3mm inset rgba(223, 136, 36, 0.6);
+    background-color: blanchedalmond;
+}
+
+.container.directions {
+    border: 3mm inset rgba(223, 136, 36, 0.6);
+    background-color: blanchedalmond;
+}
+
+.container.nutrition {
+    border: 3mm inset rgba(223, 136, 36, 0.6);
+    background-color: blanchedalmond;
+}
+
+/*.ingredients.title {
+    
+}
+*/
