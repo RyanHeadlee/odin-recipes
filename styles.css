@@ -21,7 +21,7 @@
 .pancakes {
     height: auto;
     width: 290px;
-    border-image: linear-gradient(#e8af3c, #000000) 30;
+    border-image: linear-gradient(#e8af3c, #d11414) 30;
     border-style: inset;
 }
 
