@@ -4,7 +4,7 @@
 .deviledeggs {
     height: auto;
     width: 225px;
-    border-image: linear-gradient(#e8af3c, #000000) 30;
+    border-image: linear-gradient(#e8af3c, #d11414) 30;
     border-style: inset;
 }
 
@@ -44,7 +44,7 @@
 .title-main {
     font-size: 50px;
     color: teal;
-    border-bottom: 1mm solid black;
+    border-bottom: 1mm inset teal;
     max-width: fit-content;
 }
 
