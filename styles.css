@@ -1,4 +1,29 @@
 .brownies {
     height: auto;
-    width: 400px;
+    width: 225px;
+}
+
+.brownies.home {
+    height: auto;
+    width: 150px;
+}
+
+.deviledeggs {
+    height: auto;
+    width: 225px;
+}
+
+.deviledeggs.home {
+    height: auto;
+    width: 150px;
+}
+
+.pancakes {
+    height: auto;
+    width: 300px;
+}
+
+.pancakes.home {
+    height: auto;
+    width: 225px;
 }
