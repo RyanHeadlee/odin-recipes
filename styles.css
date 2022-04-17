@@ -32,13 +32,11 @@
 
 /* Text */
 
-#body {
-    margin-top: 10mm;
-    margin-bottom: auto;
-    margin-left: 10mm;
-    margin-right: auto;
+body {
+    margin: 10mm auto auto 10mm;
     font-family: system-ui "Times New Roman" sans-serif;
     background-color: blanchedalmond;
+    box-sizing: border-box;
 }
 
 .title-main {
@@ -64,12 +62,14 @@
 }
 
 .info {
-    width: 50%;
-    text-indent: 15mm;
-    
-    box-sizing: border-box;
+    max-width: fit-content;
+    min-height: fit-content;
+    text-indent: 5mm;
     font-size: 18px;
-
+    border-image: linear-gradient(#e8af3c, #d11414) 30;
+    border-style: inset;
+    padding-right: 10px;
+    margin: 50px 0 0 300px;
 }
 
 .img-txt-pancakes {
